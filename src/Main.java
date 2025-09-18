@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 500;
-        int b = 1600;
-        if (b >= 1000) {
-            System.out.println("Итого=" + (a + b + b / 100) + "  Бонусы=" + (b / 100));
+        int balans = 500;
+        int prihod = 1600;
+        if (prihod >= 1000) {
+            System.out.println("Итого=" + (balans + prihod + prihod / 100) + "  Бонусы=" + (prihod / 100));
         } else {
-            System.out.println("Итого=" + (a + b));
+            System.out.println("Итого=" + (balans + prihod));
         }
 
 
